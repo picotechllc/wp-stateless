@@ -431,7 +431,7 @@ namespace wpCloud\StatelessMedia {
               $json = json_decode($args['key_json']);
             }
 
-            if (!$json || !property_exists($json, 'private_key')) {
+            if ($json && $json != "{}" && !property_exists($json, 'private_key')) {
               throw new Exception(__('<b>Service Account JSON</b> is invalid.'));
             }
 
