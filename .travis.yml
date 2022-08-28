@@ -56,7 +56,7 @@ before_script:
     fi
 
 script:
-  - composer update
+  - composer update --with udx/lib-settings=0.3.0 --with udx/lib-wp-bootstrap=1.3.0 --with udx/lib-ud-api-client=1.2.1
   - |
     if [[ ! -z "$WP_VERSION" ]] ; then
       phpunit
