@@ -1,5 +1,6 @@
 {
   "name": "wpcloud/wp-stateless",
+  "license": "MIT",
   "description": "WP-Stateless WordPress plugin",
   "type": "wordpress-plugin",
   "minimum-stability": "stable",
