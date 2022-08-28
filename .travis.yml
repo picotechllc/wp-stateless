@@ -54,6 +54,7 @@ before_script:
     fi
 
 script:
+  - composer update --lock
   - composer install -v
   - |
     if [[ ! -z "$WP_VERSION" ]] ; then
