@@ -1,5 +1,5 @@
 os: linux
-dist: trusty
+dist: focal
 
 language: php
 
@@ -23,10 +23,12 @@ jobs:
       env: WP_VERSION=latest
     - php: 7.4
       env: WP_VERSION=5.9
+      dist: trusty
     - php: 7.3
       env: WP_VERSION=latest
     - php: 7.3
       env: WP_VERSION=5.9
+      dist: trusty
 
 before_script:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
