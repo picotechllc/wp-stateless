@@ -30,6 +30,10 @@
     {
       "type": "git",
       "url": "https://github.com/udx/lib-ud-api-client.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/udx/lib-utility.git"
     }
   ],
   "require": {
