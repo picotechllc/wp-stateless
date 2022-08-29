@@ -17,7 +17,19 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/wpCloud/wp-stateless.git"
+      "url": "https://github.com/picotechllc/wp-stateless.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/udx/lib-settings.git
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/udx/lib-wp-bootstrap.git
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/udx/lib-ud-api-client.git
     }
   ],
   "require": {
