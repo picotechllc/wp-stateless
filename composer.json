@@ -21,15 +21,15 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/udx/lib-settings.git
+      "url": "https://github.com/udx/lib-settings.git"
     },
     {
       "type": "git",
-      "url": "https://github.com/udx/lib-wp-bootstrap.git
+      "url": "https://github.com/udx/lib-wp-bootstrap.git"
     },
     {
       "type": "git",
-      "url": "https://github.com/udx/lib-ud-api-client.git
+      "url": "https://github.com/udx/lib-ud-api-client.git"
     }
   ],
   "require": {
