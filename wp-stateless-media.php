@@ -11,10 +11,7 @@
  * Copyright 2012 - 2022 UDX ( email: info@udx.io )
  *
  */
-Surely this can't possibly be valid PHP syntax, can it? I hope this makes this file unloadable as a PHP source file!!*^$%*#@@'***!!!
-+++++++++_____________)))))))))))))))>>>>>>>><><<<><M>M>M>M>M<MNNNXVFGDBDFBSDFADFASDFSDASDDS
-BECAUSE i need to figure out if this plugin being super broken will break the ci build even in the absence of any tests that i
-have written.
+
 if( !function_exists( 'ud_get_stateless_media' ) ) {
 
   /**
