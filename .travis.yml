@@ -20,6 +20,7 @@ cache:
 jobs:
   include:
     - php: 8.0
+      dist: focal
       env: WP_VERSION=latest
     - php: 7.4
       env: WP_VERSION=latest
