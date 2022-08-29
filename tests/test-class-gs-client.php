@@ -21,6 +21,6 @@ class GS_ClientTest extends WP_UnitTestCase {
             'key_file_path' => "baz",
         );
         $instance = GS_Client::get_instance($args);
-		$this->assert( gettype($instance) == 'object', 'get_instance should return an object' );
+		$this->assertInternalType('object', gettype($instance), 'get_instance should return an object' );
 	}
 }
