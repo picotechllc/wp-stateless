@@ -8,10 +8,10 @@
 use wpCloud\StatelessMedia\GS_Client;
 
 class GS_ClientTest extends WP_UnitTestCase {
-    public function setUp() {
+    public function setUp(): void {
         parent::setUp();
     }
-    public function tearDown() {
+    public function tearDown(): void {
         parent::tearDown();
     }
 	public function test_get_instance() {
