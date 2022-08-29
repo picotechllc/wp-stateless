@@ -5,6 +5,8 @@
  * @package Wp_Stateless
  */
 
+require 'vendor/yoast/phpunit-polyfills/phpunitpolyfills-autoload.php';
+
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
 
 if ( ! $_tests_dir ) {
