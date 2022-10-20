@@ -39,8 +39,8 @@ jobs:
             done
             echo Gave up waiting for MySQL && exit 1
       - run:
-          name: Interact with MySQL
+          name: Run tests
           command: |
             sudo apt-get update
             sudo apt-get install -y default-mysql-client
-            mysql -h 127.0.0.1 -u test_user -pego7Ligiegh4Azo0ei --execute='SELECT version()'
+            ./bin/install-wp-tests.sh test_db test_user ego7Ligiegh4Azo0ei 127.0.0.1
