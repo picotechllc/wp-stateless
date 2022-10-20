@@ -14,9 +14,10 @@ final class GS_ClientTest extends PHPUnit\Framework\TestCase
         $args_ok = array(
             'bucket' => "pail",
             'key_json' => '{"private_key":0}',
+            'client_id' => "foo-client",
         );
         $instance = GS_Client::get_instance($args_ok);
-        $this->assertIsObject($instance, 'get_instance should return an object' );
+        $this->assertIsObject($instance, 'get_instance should return an object');
         $this->assertNotInstanceOf('WP_Error', $instance, 'get_instance should not return an error, but returned these: ' . implode($instance->get_error_messages()));
 
         // this empty array is not a valid argument to get_instance and should result in an error being returned
