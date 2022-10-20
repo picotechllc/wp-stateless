@@ -23,7 +23,7 @@ class GS_ClientTest extends WP_UnitTestCase {
         $instance = GS_Client::get_instance($args_ok);
 		$this->assertIsObject($instance, 'get_instance should return an object' );
         $args_empty = array();
-        $this->expectExceptionMessage('<b>Bucket</b> parameter must be provided.');
+        $this->expectException(Exception);
         GS_Client::get_instance($args_empty);
 	}
 }
