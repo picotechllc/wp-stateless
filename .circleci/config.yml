@@ -10,4 +10,4 @@ jobs:
       - checkout
       - run:
           name: syntax check
-          command: find . -name '*.php' -exec php -l {} \;
+          command: find . -name '*.php' -print0 | xargs -0 -n1 php -l
