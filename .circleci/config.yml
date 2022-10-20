@@ -5,7 +5,7 @@ version: 2.1
 workflows:
   my-workflow:
     jobs:
-      - run-tests:
+      - build:
           context:
             - dockerhub-rcsheets
 
