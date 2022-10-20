@@ -8,4 +8,6 @@ jobs:
       - image: cimg/php:7.4
     steps:
       - checkout
-      - run: php --version
+      - run:
+          name: syntax check
+          command: find $CIRCLE_WORKING_DIRECTORY -name '*.php' -exec php -l {} \;
