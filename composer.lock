@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "854e4cfdd3ae6ee5ad12a7df2a3bcbce",
+    "content-hash": "d9ebd2c2f9e75fc5dafd9bb41e232d74",
     "packages": [
         {
             "name": "ccampbell/chromephp",
