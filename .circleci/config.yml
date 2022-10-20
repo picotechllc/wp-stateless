@@ -44,3 +44,6 @@ jobs:
             sudo apt-get update
             sudo apt-get install -y default-mysql-client subversion
             ./bin/install-wp-tests.sh test_db test_user ego7Ligiegh4Azo0ei 127.0.0.1 latest true
+            composer update
+            phpunit
+            WP_MULTISITE=1 phpunit
