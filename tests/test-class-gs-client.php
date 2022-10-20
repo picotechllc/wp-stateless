@@ -13,7 +13,7 @@ final class GS_ClientTest extends PHPUnit\Framework\TestCase
         // this is intended to be a (barely, technically) valid argument array
         $args_ok = array(
             'bucket' => "pail",
-            'key_json' => '{"private_key":0}',
+            'key_json' => '{"private_key":0,"client_id":1}',
             'client_id' => "foo-client",
         );
         $instance = GS_Client::get_instance($args_ok);
