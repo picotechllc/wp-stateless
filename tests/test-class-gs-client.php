@@ -17,7 +17,7 @@ final class GS_ClientTest extends PHPUnit\Framework\TestCase
         );
         $instance = GS_Client::get_instance($args_ok);
         $this->assertIsObject($instance, 'get_instance should return an object');
-        $this->assertNotInstanceOf('WP_Error', $instance, 'get_instance should not return an error, but returned these: ' . implode($instance->get_error_messages()));
+        $this->assertNotInstanceOf('WP_Error', $instance, 'get_instance should not return an error');
 
         // this empty array is not a valid argument to get_instance and should result in an error being returned
         $args_empty = array();
