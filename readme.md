@@ -1,5 +1,6 @@
 # WordPress Stateless Media Plugin
-[![Build Status](https://app.travis-ci.com/picotechllc/wp-stateless.svg?branch=v3.0)](https://app.travis-ci.com/picotechllc/wp-stateless)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/picotechllc/wp-stateless/tree/v3.0.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/picotechllc/wp-stateless/tree/v3.0)
+
 
 ## Description
 

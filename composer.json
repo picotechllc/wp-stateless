@@ -108,6 +108,7 @@
   "require-dev": {
     "coenjacobs/mozart": "0.6.0-beta-3",
     "deliciousbrains/wp-background-processing": "^1.0",
-    "yoast/phpunit-polyfills": "1.0.3"
+    "yoast/phpunit-polyfills": "1.0.3",
+    "phpunit/phpunit": "^9"
   }
 }
