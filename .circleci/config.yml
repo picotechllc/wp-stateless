@@ -6,6 +6,7 @@ jobs:
   build:
     docker:
       - image: cimg/php:7.4
+    resource_class: medium
     steps:
       - checkout
       - run:
