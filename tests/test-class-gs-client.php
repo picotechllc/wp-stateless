@@ -18,7 +18,7 @@ final class GS_ClientTest extends PHPUnit\Framework\TestCase
         $instance = GS_Client::get_instance($args_ok);
         $this->assertIsObject($instance, 'get_instance should return an object' );
         $args_empty = array();
-        $this->expectException();
-        GS_Client::get_instance($args_empty);
+        $should_be_error = GS_Client::get_instance($args_empty);
+        $this->assertInstanceOf('WP_Error', $should_be_error);
     }
 }
