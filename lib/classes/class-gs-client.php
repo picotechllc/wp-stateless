@@ -409,6 +409,7 @@ namespace wpCloud\StatelessMedia {
        * @param array $args
        *
        * $args
+       * @param string client_id
        * @param string service_account_name
        * @param string key_file_path
        *
