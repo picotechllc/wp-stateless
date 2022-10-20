@@ -5,12 +5,12 @@ version: 2.1
 workflows:
   my-workflow:
     jobs:
-      - build:
+      - run-tests:
           context:
             - dockerhub-rcsheets
 
 jobs:
-  build:
+  run-tests:
     docker:
       - image: cimg/php:7.4
         auth:
