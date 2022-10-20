@@ -6,7 +6,13 @@ jobs:
   build:
     docker:
       - image: cimg/php:7.4
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_PASSWORD
       - image: cimg/mysql:8.0
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_PASSWORD
         environment:
           MYSQL_ROOT_PASSWORD: mooph5oomiuRe5Shoj
           MYSQL_DATABASE: test_db
