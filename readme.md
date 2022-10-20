@@ -1,6 +1,7 @@
 # WordPress Stateless Media Plugin
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/picotechllc/wp-stateless/tree/v3.0.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/picotechllc/wp-stateless/tree/v3.0)
 
+
 ## Description
 
 Upload and serve your WordPress media from Google Cloud Storage (GCS) with the WP-Stateless plugin. In as little as two minutes, you will be benefitting from serving your media from Google Cloud's distributed servers.
