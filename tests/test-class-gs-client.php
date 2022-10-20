@@ -11,6 +11,7 @@ final class GS_ClientTest extends PHPUnit\Framework\TestCase
 {
     public function test_get_instance() {
         $args_ok = array(
+            'bucket' => "pail",
             'client_id' => "foo",
             'service_account_name' => "bar",
             'key_file_path' => "baz",
