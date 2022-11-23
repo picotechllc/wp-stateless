@@ -431,10 +431,6 @@ namespace wpCloud\StatelessMedia {
               $json = json_decode($args['key_json']);
             }
 
-            if (!$json) {
-              throw new Exception(__('<b>Service Account JSON</b> is invalid.'));
-            }
-
             self::$instance = new self($args);
           } catch (Exception $e) {
             return new WP_Error('sm_error', $e->getMessage());
